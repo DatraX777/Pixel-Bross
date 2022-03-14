@@ -412,8 +412,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 152, y: -40}
-  m_SizeDelta: {x: 200, y: 30}
+  m_AnchoredPosition: {x: 247.91101, y: -46.831665}
+  m_SizeDelta: {x: 333.451, y: 50.0176}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &103977219
 MonoBehaviour:
@@ -437,10 +437,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: ec0f33465efe86f498e7515cb6c276a9, type: 3}
-    m_FontSize: 14
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -812,11 +812,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 680668286007278612, guid: ae6787e2302735343b00cadb11bd4807, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8
+      value: 58.6
       objectReference: {fileID: 0}
     - target: {fileID: 680668286007278612, guid: ae6787e2302735343b00cadb11bd4807, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.6
+      value: 14.3
       objectReference: {fileID: 0}
     - target: {fileID: 680668286007278612, guid: ae6787e2302735343b00cadb11bd4807, type: 3}
       propertyPath: m_LocalPosition.z
@@ -89895,8 +89895,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 158.61946, y: -62.457825}
-  m_SizeDelta: {x: 218.6389, y: 101.9156}
+  m_AnchoredPosition: {x: 411.9516, y: -118.31598}
+  m_SizeDelta: {x: 458.3031, y: 213.6318}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &738958284
 MonoBehaviour:
@@ -89920,11 +89920,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: ec0f33465efe86f498e7515cb6c276a9, type: 3}
-    m_FontSize: 14
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 45
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -90897,7 +90897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.7058824, g: 0.56078434, b: 0.03137255, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -90906,12 +90906,12 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: ec0f33465efe86f498e7515cb6c276a9, type: 3}
-    m_FontSize: 14
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -90942,8 +90942,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 128.52222, y: -103.822205}
-  m_SizeDelta: {x: 213.0444, y: 39.6444}
+  m_AnchoredPosition: {x: 200.75269, y: -135.95154}
+  m_SizeDelta: {x: 357.5054, y: 66.5264}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &1258758617 stripped
 Transform:

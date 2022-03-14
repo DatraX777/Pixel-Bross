@@ -15,9 +15,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float jumpForce = 14f;
 
-    private enum MovementState { idle, running, jumping, falling }
+    private enum MovementState { idle, running, jumping,falling, dJumping}
 
     [SerializeField] private AudioSource jumpSoundEffect;
+
+    private bool dJump = false;
 
     // Start is called before the first frame update
     private void Start()
@@ -38,6 +40,14 @@ public class PlayerMovement : MonoBehaviour
         {
             jumpSoundEffect.Play();
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            dJump = true;
+        }
+        if (!isGrounded() && dJump && Input.GetButtonDown("Jump"))
+        {
+            jumpSoundEffect.Play();
+            anim.SetTrigger("djump");
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            dJump = false;
         }
 
         UpdateAnimationState();
