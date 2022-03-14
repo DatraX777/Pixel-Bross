@@ -6,9 +6,10 @@ using UnityEngine.UI;
 public class ItemCollector : MonoBehaviour
 {
 
-    private int pineapples = 0;
+    public int pineapples = 0;
 
     [SerializeField] private Text pineapplesText;
+    
 
     [SerializeField] private AudioSource collectionSoundEffect;
     private void OnTriggerEnter2D(Collider2D collision)
@@ -21,6 +22,8 @@ public class ItemCollector : MonoBehaviour
         //    Debug.Log("Pineapple: " + pineapples);
             pineapplesText.text = "Pineapple: " + pineapples;
         }
+
+        
     }
 }
 

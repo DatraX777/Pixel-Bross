@@ -8,6 +8,7 @@ TagManager:
   - Pineapple
   - trap
   - mob
+  - chest
   layers:
   - Default
   - TransparentFX
@@ -44,6 +45,9 @@ TagManager:
   m_SortingLayers:
   - name: background
     uniqueID: 2731328937
+    locked: 0
+  - name: OverBackground
+    uniqueID: 3858253959
     locked: 0
   - name: Default
     uniqueID: 0

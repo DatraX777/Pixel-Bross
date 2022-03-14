@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 5800391069807961140}
   m_Layer: 0
   m_Name: Slime
-  m_TagString: Untagged
+  m_TagString: trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 4891269827688832028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.0395699, y: -6.0819807, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7715, y: 0.7715, z: 0.7715}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -136,7 +136,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.041636825, y: -0.30446106}
+  m_Offset: {x: 0.01224184, y: -0.30446106}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -147,7 +147,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.750181, y: 1.1413139}
+  m_Size: {x: 1.9297762, y: 1.1413139}
   m_EdgeRadius: 0
 --- !u!61 &4891269827688832026
 BoxCollider2D:
@@ -162,7 +162,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.013045907, y: 0.50123024}
+  m_Offset: {x: -0.03634262, y: 0.4742911}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -173,7 +173,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.2609818, y: 0.36252815}
+  m_Size: {x: 1.4797459, y: 0.30864978}
   m_EdgeRadius: 0
 --- !u!114 &1063082930520968687
 MonoBehaviour:
