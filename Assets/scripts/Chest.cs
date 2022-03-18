@@ -11,6 +11,7 @@ public class Chest : MonoBehaviour
     [SerializeField] private Text Objet;
     
     private bool proxi = false;
+    private bool open = false;
 
     private int rare = 0;
 
@@ -24,8 +25,9 @@ public class Chest : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetButtonDown("Fire1") && proxi)
+        if(Input.GetButtonDown("Fire1") && proxi && !open)
             {
+                open = true ;
                 anim.SetTrigger("ouvrir");
                 openText.text = "Vous avez trouvé un truc rare mais vous ne savez pas ce que c'est!!?";
                 rare++;
