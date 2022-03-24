@@ -30,6 +30,7 @@ public class Chest : MonoBehaviour
                 openText.text = "Vous avez trouvé un truc rare mais vous ne savez pas ce que c'est!!?";
                 rare++;
                 Objet.text = "Truc rare :" + rare;
+                Erase();
             }
     }
 
@@ -48,7 +49,7 @@ public class Chest : MonoBehaviour
         openText.text = "";
         proxi = false;
         
-        Erase();
+        
     }
 
     private void Erase()

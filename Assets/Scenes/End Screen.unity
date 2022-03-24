@@ -721,7 +721,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Un petit 15/15 m'irai tr\xE8s bien"
+  m_Text: "Un petit 15/15 m'irait tr\xE8s bien"
 --- !u!222 &1144955868
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1208,7 +1208,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Si tu n'es toujours pas convaincu n'h\xE9site a rejouer"
+  m_Text: "Si tu n'es toujours pas convaincu n'h\xE9site pas \xE0 rejouer"
 --- !u!222 &1872276174
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1287,7 +1287,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: "As tu r\xE9ussit a trouver les 10 ananas du deuxi\xE8me niveau?"
+  m_Text: "As tu r\xE9ussit \xE0 trouver les 10 ananas du deuxi\xE8me niveau?"
 --- !u!222 &1917813889
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1366,7 +1366,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Merci d''avoir jouer a mon jeu. '
+  m_Text: "Merci d'avoir jou\xE9 \xE0 mon jeu. "
 --- !u!222 &2099116005
 CanvasRenderer:
   m_ObjectHideFlags: 0
